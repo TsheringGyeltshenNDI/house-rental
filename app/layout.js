@@ -23,6 +23,11 @@ export const metadata = {
   },
   description:
     "Find houses and flats for rent across all 20 dzongkhags of Bhutan, or post your own for free.",
+  // Proves to Google Search Console that we own the site (needed for the
+  // Google login branding check).
+  verification: {
+    google: "ikcZoqyZGBa0K8ivK9scSa3ZVnQgx3Z0noGm1e4IgUs",
+  },
 };
 
 export const viewport = {
