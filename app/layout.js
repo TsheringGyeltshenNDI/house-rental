@@ -137,7 +137,9 @@ function Footer() {
         </div>
       </div>
       <div className="border-t border-white/10 py-5 text-center text-xs">
-        {SITE_NAME} · Made for Bhutan
+        {SITE_NAME} · Made for Bhutan ·{" "}
+        <Link href="/privacy" className="hover:text-white">Privacy</Link> ·{" "}
+        <Link href="/terms" className="hover:text-white">Terms</Link>
       </div>
     </footer>
   );
